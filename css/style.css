@@ -1,0 +1,190 @@
+body {
+    background: rgb(30, 30, 30);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-right:20px
+}
+
+.logo {
+    position: absolute;
+    color: orange;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+
+.sublogo1 {
+    padding-left: 20px;
+    padding-top: 10%;
+    color: orange;
+    position: absolute;
+    padding-left: 85px;
+}
+
+.sublogo2 {
+    padding-left: 20px;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    padding-left: 200px;
+}
+
+.sublogo3 {
+    padding-left: 20px;
+    padding-top: 10%;
+    color: orange;
+    position: absolute;
+    padding-left: 240px;
+}
+
+.sublogo {
+    padding-left: 20px;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.textbox {
+    padding-left: 20px;
+    padding-top: 23%;
+    color: rgb(170, 170, 170);
+    font-size: small;
+}
+
+.footer {
+    padding-left: 20px;
+    padding-top: 25%;
+    color: rgb(170, 170, 170);
+    font-size: small;
+}
+
+.icons {
+    padding-left: 20px;
+    padding-top: 5%;
+    color: rgb(170, 170, 170);
+}
+
+nav {
+    position: right;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.button1 {
+    background-color: rgb(30, 30, 30);
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.left_column {
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(30, 30, 30);
+    position: center;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 100%;
+}
+
+.btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.textblock {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.centered {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: orange;
+    position: absolute;
+    top: 43%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.right_column img {
+	opacity: 0.6;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .btn:hover {
+    background-color: black;
+}
+.right_column {
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;  
+}
